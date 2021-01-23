@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Chapter 3 - PIAIC122513</title>
+    </head>
+    <body>
+        <h1>Chapter # 7 - Forms</h1>
+        <form action="ch7.html">
+          <fieldset>
+          <legend>Your Details:</legend>
+            <label for="name">Name:</label>
+            <input type="text" size="40" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="text" size="40" id="email" name="email"><br><br>
+          </fieldset><br>
+          <fieldset>
+          <legend>Your Review:</legend>
+            <label for="how">How did you hear about us?</label>
+            <select name="how" id="how">
+              <option value="google">Google</option>
+              <option value="social">Social</option>
+              <option value="news">News</option>
+              <option value="other">Other</option>
+            </select> 
+            <p>Would you visit again?</p>
+            <input type="radio" id="yes" name="visit" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="visit" value="no">
+            <label for="no">No</label>
+            <input type="radio" id="maybe" name="visit" value="maybe">
+            <label for="maybe">Maybe</label><br><br>
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="38"></textarea><br><br>
+            <input type="checkbox" id="signup" name="signup" value="yes" checked>
+            <label for="signup"> Sign me up for email updates</label><br>
+            <input type="submit" value="Submit review">
+          </fieldset>
+        </form>
+    </body>
+</html>
