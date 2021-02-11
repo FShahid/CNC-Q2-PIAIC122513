@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>JS chapter 15,16,17</title>
+    <script>
+        var courses = [];
+        for (var n=1; n<=5; n++)
+        {
+            courses.push(prompt("Enter course " + n + " name"));
+        } 
+        alert("Course list: " + courses);
+        var num = parseInt(prompt("Enter course number to edit"));
+        courses.splice(num-1,1,prompt("Enter new course " + num + " name"));
+        alert("Updated course list: " + courses);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
