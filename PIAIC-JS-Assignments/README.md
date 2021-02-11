@@ -5,7 +5,7 @@ Name: Faizan Shahid
 
 Roll Number: PIAIC122513
 
-    Chapter -1 2 3 https://github.com/FShahid/CNC-Q2-PIAIC122513/tree/main/PIAIC-JS-Assignments/JS%20chapter%201%2C2%2C3
+    Chapter -1 2 3 (https://github.com/FShahid/CNC-Q2-PIAIC122513/tree/main/PIAIC-JS-Assignments/JS%20chapter%201%2C2%2C3)
     Chapter -5 6 7
     Chapter -9
     Chapter -10 to 14
