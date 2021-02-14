@@ -3,10 +3,11 @@
     <title>JS chapter 15,16,17</title>
     <script>
         var courses = [];
-        for (var n=1; n<=5; n++)
-        {
-            courses.push(prompt("Enter course " + n + " name"));
-        } 
+	courses.push(prompt("Enter course 1 name"));
+	courses.push(prompt("Enter course 2 name"));
+	courses.push(prompt("Enter course 3 name"));
+	courses.push(prompt("Enter course 4 name"));
+	courses.push(prompt("Enter course 5 name"));
         alert("Course list: " + courses);
         var num = parseInt(prompt("Enter course number to edit"));
         courses.splice(num-1,1,prompt("Enter new course " + num + " name"));
