@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>JS chapter 21 to 30</title>
+    <script>
+        var text = prompt("Enter a sentence");
+        text = text.split(" ");
+        console.log(text);
+        var capital = [];
+        for (var x=0; x<text.length; x++)
+        {
+            var subtext = text[x].split("");
+            subtext[0] = subtext[0].toLocaleUpperCase();
+            for (var y=1; y<subtext.length; y++)
+            {
+                subtext[y] = subtext[y].toLocaleLowerCase();
+            }
+            text[x] = subtext.join("");
+        } 
+        alert("Output is: " + text.join(" "));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>JS chapter 21 to 30</title>
+    <script>
+        var num = parseFloat(prompt("Enter a decimal number"));
+        num = Math.ceil(num);
+        var text = "This is my dummy text";
+        text = text.slice(0,num);
+        var reverse = [];
+        var x = 0;
+        for (var y=text.length; y>=0; y--)
+        {
+            reverse[x] = text[y]
+            x++;
+        } 
+        alert("Output is: " + reverse.join(""));;
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
