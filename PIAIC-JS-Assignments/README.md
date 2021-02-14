@@ -17,7 +17,7 @@ Roll Number: PIAIC122513
 
 [Chapter - 21 to 30](https://github.com/FShahid/CNC-Q2-PIAIC122513/tree/main/PIAIC-JS-Assignments/JS%20chapter%2021%20to%2030)
 
-[Chapter - 31 to 34]
+[Chapter - 31 to 34](https://github.com/FShahid/CNC-Q2-PIAIC122513/tree/main/PIAIC-JS-Assignments/JS%20chapter%2031%20to%2034)
 
 [Chapter - 35 to 38]
 
