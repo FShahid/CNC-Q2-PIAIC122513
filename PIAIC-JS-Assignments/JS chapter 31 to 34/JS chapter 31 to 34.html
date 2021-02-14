@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>JS chapter 31 to 34</title>
+    <script>
+        var name = prompt("Enter your name");
+        var day = Math.abs(prompt("Enter DOB (date)"));
+        var month = Math.abs(prompt("Enter DOB (month)"));
+        var year = Math.abs(prompt("Enter DOB (year)"));
+        var date = new Date();
+        var hour = date.getHours();
+        if (hour >= 6 && hour <= 11)
+        console.log("Hello " + name + ", Good Morning");
+        else if (hour >= 12 && hour <= 17)
+        console.log("Hello " + name + ", Good Afternoon");
+        else if (hour >= 18 && hour <= 23)
+        console.log("Hello " + name + ", Good Evening");
+        else
+        console.log("Hello " + name + ", Good Night");
+        function calc_age(dob) {
+            var diff = Date.now() - dob.getTime();
+            var age = new Date(diff);
+            console.log("You are " + (age.getFullYear() - 1970) + " Years " + age.getMonth() + " Months " + age.getDay() + " Days " + Math.abs((24 - (age.getHours() + 19))) + " Hours " + age.getMinutes() + " Minutes " + age.getSeconds() + " Seconds old");
+            return (age.getTime());
+        }
+        console.log("Your DOB is " + day + "/" + month + "/" + year);
+        console.log("Your age in Days is " + parseInt(calc_age(new Date(year, month, day))/86400000));
+        var nextBirthday = new Date(date.getFullYear(), month, day);
+        var ms = nextBirthday - date;
+        var sc = Math.floor( (ms/1000) % 60 );
+        var mn = Math.floor( (ms/1000/60) % 60 );
+        var hr = Math.floor( (ms/(1000*60*60)) % 24 );
+        var dy = Math.floor( ms/(1000*60*60*24) );
+        console.log("Your next birthday is in " + dy + " Days, " + hr + " Hours " + mn + " Minutes " + sc + " Seconds");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
